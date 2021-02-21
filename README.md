@@ -1,63 +1,62 @@
-# Unit 18 PWA Homework: Online/Offline Budget Trackers
+:part_alternation_mark:
 
-Add functionality to our existing Budget Tracker application to allow for offline access and functionality.
+    
+# PWA Budget-Tracker
+---
 
-The user will be able to add expenses and deposits to their budget with or without a connection. When entering transactions offline, they should populate the total when brought back online.
+>Link to github repository https://github.com/MT2314/Budget-Tracker
+#### Deployed App Link
+[>https://exercisetrackandgraph.herokuapp.com/](https://budget-tracker-pwa2020.herokuapp.com/)
+    
+<img src= "/public/assets/budget-tracker.jpg" alt="Burger Order System Screenshot" width="600"/>
+    
+## Description
+---
+##### Progressive Budget Tracking Application
+</br>
 
-Offline Functionality:
-
-  * Enter deposits offline
-
-  * Enter expenses offline
-
-When brought back online:
-
-  * Offline entries should be added to tracker.
-
-## User Story
-AS AN avid traveller
-I WANT to be able to track my withdrawals and deposits with or without a data/internet connection
-SO THAT my account balance is accurate when I am traveling
-
-## Business Context
-
-Giving users a fast and easy way to track their money is important, but allowing them to access that information anytime is even more important. Having offline functionality is paramount to our applications success.
+> Offline, syncronizes inputed data to databse when connection is re-established
+> Saves backed up data in IndexDb. 
 
 
-## Acceptance Criteria
-GIVEN a user is on Budget App without an internet connection
-WHEN the user inputs a withdrawal or deposit
-THEN that will be shown on the page, and added to their transaction history when their connection is back online.
+    
+</br>
 
-- - -
+##Table of Contents
+---
+[Technologies Used](#technologies)
+[Usage](#usage-guide)
+[License](#license)
+[Contributing](#contributing)
 
-## Commit Early and Often
 
-* One of the most important skills to master as a web developer is version control. Building the habit of committing via Git is important for two reasons:
+### Technologies
+HTML , CSS , Javascript , MongoDB , Node , Express , IndexDb , Service Worker
 
-1. Your commit history is a signal to employers that you are actively working on projects and learning new skills
+### Usage Guide
+---
+### Heroku
+>https://github.com/MT2314/Budget-Tracker
+#### 
+Navigate to the link. Your data will be saved in MongoDB
 
-2. Your commit history allows you to revert your code base in the event that you need to return to a previous state
+### Contributing
+---
+> :school: 
+**University of Toronto Continuing Educationg
+Full Stack Flex Program** 
+:school:
 
-* Follow these guidelines for committing:
+:heart: 
+*Students and Instructors At the UFT-FSF-2020-2021*
+:heart:
 
-  * Make single purpose commits for related changes to ensure a clean, manageable history. If you are fixing two issues, make two commits
 
-  * Write descriptive, meaningful commit messages so that you and anyone else looking at your repository can easily understand its history
+### License
+---
+Licensed under the MIT license.
+<br>
+[![MIT License](https://img.shields.io/apm/l/atomic-design-ui.svg?)](https://github.com/tterb/atomic-design-ui/blob/master/LICENSEs)
+</br>
 
-  * Don't commit half done work, for the sake of your collaborators (and your future self!)
-
-  * Test your application before you commit to ensure functionality at every step in the development process
-
-* We would like you to have well over 200 commits by graduation, so commit early and often!
-
-* Deploy your application with [Heroku and MongoDB Atlas.](../04-Important/MongoAtlas-Deploy.md)
-
-## Submission on BCS
-
-* You are required to submit the following:
-
-  * the URL to the deployed application
-
-  * the URL to the Github repository
-
+:lock::lock::lock::lock:
